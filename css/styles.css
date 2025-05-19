@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    background-image: url("https://assets.codepen.io/1425525/tota_ill_1.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 200vh;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
